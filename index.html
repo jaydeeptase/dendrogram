@@ -177,7 +177,8 @@
 				return data;
 			}
 
-			var data = getData();
+			//var data = getData();
+			var data = require('./finsProducts.json');
 				
 			var treePlugin = new d3.mitchTree.boxedTree()
 				.setData(data)
