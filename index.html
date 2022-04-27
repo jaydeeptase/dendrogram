@@ -14,6 +14,7 @@
 	<body style="text-align:center;">
 		<section id="visualisation" style="max-width: 80%;"> 
 		</section>
+		
 
 		<script>
 			function getData() {
@@ -199,13 +200,12 @@
 				.setTitleDisplayTextAccessor(function(data) {
 					return data.name;
 				})
-				.on("nodeDoubleClick", function(event) {
-					alert("Double Click event was triggered!");
-				})
 				.on("nodeClick", function(event) {
 					console.log('The event object:')
 					console.log(event);
 					console.log("Click event was triggered!");
+					if(event.data.children.length == 0)
+						test2();
 
 					// Note for 'collapse' or 'expand' event type
 					// to trigger, you'll need to disable focus mode.
@@ -223,46 +223,49 @@
 				})
 				.initialize();
 
-				
-			/* Alternative Options Object Syntax, opposed to the Fluent Interface Above
-				var options = {
-					data: data,
-					allowPan: false
-					element: document.getElementById("visualisation"),
-					getId: function (data) {
-						return data.id;
-					},
-					getChildren: function (data) {
-						return data.children;
-					},
-					getBodyDisplayText: function (data) {
-						return data.description;
-					},
-					getTitleDisplayText: function (data) {
-						return data.name;
-					},
-					events: {
-						nodeClick: function(data, index, arr){
-							console.log("Click event was triggered!");
+				//document
+				//	.getElementById('visualisation')
+				//	.addEventListener('click', test);
 
-							// Note for 'collapse' or 'expand' event type
-							// to trigger, you'll need to disable focus mode.
-							// You can do this by passing in false for the
-							// allowFocus setting.
-							if (event.type == 'focus')
-								console.log("Node is being focused");
-							else if (event.type == 'collapse')
-								console.log("Node is collapsing");
-							else if (event.type == 'expand')
-								console.log("Node is expanding");
-							// You use the below line to cancel the
-							// focus/expand/collapse event
-							//   event.preventDefault();
-						}
+				var selectedNode = null;
+				var oldSelectedNode = null;
+				function test(){
+					selectedNode = document.getElementsByClassName(
+					'selected'
+					)[0];
+					alert(selectedNode.data)
+				}
+				function test2(){
+					alert("hello")
+				}
+				function onClickContainer() {
+					if (selectedNode) {
+					oldSelectedNode = selectedNode;
+					oldSelectedNode.removeEventListener('click', onClickDescription);
 					}
-				};
-				var treePlugin = new d3.mitchTree.boxedTree(options).initialize();
-			*/
+					selectedNode = document.getElementsByClassName(
+					'selected'
+					)[0];
+					/* console.log(
+					'onClickContainer ~ selectedNode',
+					selectedNode
+					); */
+					//alert (selectedNode.children.length);
+					alert(selectedNode.data.description)
+					console.log('onClickContainer');
+					selectedNode.addEventListener('click', onClickDescription);
+				}
+
+				function onClickDescription(event) {
+					//console.log(event.target);
+					console.log('onClickDescription');
+					if (event.stopPropagation) {
+					event.stopPropagation();
+					} else if (window.event) {
+					window.event.cancelBubble = true;
+					}
+				}
+
 		</script>
 	</body>
 </html>
