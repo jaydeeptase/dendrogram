@@ -177,8 +177,12 @@
 				return data;
 			}
 
-			//var data = getData();
-			var data = require('./finsProducts.json');
+			var data = getData();
+			/*fetch("./finsProducts.json")
+			.then(response => {
+			return response.json();
+			})
+			.then(data => console.log(data));*/
 				
 			var treePlugin = new d3.mitchTree.boxedTree()
 				.setData(data)
