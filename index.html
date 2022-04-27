@@ -19,9 +19,9 @@
 			function getData() {
 				var data = {
 					"id": 1,
-					"name": "Animals",
+					"name": "FINS - Platform",
 					"type": "Root",
-					"description": "A living organism that feeds on organic matter",
+					"description": "FINS Platform",
 					"children": [
 						{
 							"id": 2,
@@ -194,11 +194,13 @@
 				.setTitleDisplayTextAccessor(function(data) {
 					return data.name;
 				})
+				.on("nodeDoubleClick", function(event) {
+					alert("Double Click event was triggered!");
+				}
 				.on("nodeClick", function(event) {
 					console.log('The event object:')
 					console.log(event);
 					console.log("Click event was triggered!");
-					alert("Click event was triggered!");
 
 					// Note for 'collapse' or 'expand' event type
 					// to trigger, you'll need to disable focus mode.
