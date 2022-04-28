@@ -1,4 +1,4 @@
-{
+var data = {
     "id": 1,
     "name": "Platform Services",
     "type": "Root",
@@ -319,4 +319,4 @@
             ]
         }
     ]
-}
+};
