@@ -19,7 +19,7 @@
 <body style="text-align:center;">
 	<div class="banner">
 		<div>
-			<h3 style="color:steelblue">FINS Platform - Products Catalog</h3>
+			<h3 style="color:steelblue">FINS Platform - Products Catalog</h3> &emsp;
 		</div>
 	</div>
 	<div id="visualisation" style="max-width:90%;position: absolute;margin: auto;left: 0;right: 0;top: 0;bottom: 0;">
@@ -67,7 +67,7 @@
 				if (event.data.children.length == 0) {
 					$('#myModalTitle').html(event.data.name);
 					$('#myModalBody').html("<p style=text-align:left;font-size:14px;'>" + event.data.description + "</p>");
-					$('#myModalFooter').html("<a href='" + event.data.slackURL + "' target='_blank'><img src='./img/highspot.png' width='30'/></a>&emsp;<a href='" + event.data.highspotURL + "' target='_blank'><img src='./img/slack.png' width='30'/></a>");
+					$('#myModalFooter').html("<a href='" + event.data.highspotURL + "' target='_blank'><img src='./img/highspot.png' width='30'/></a>&emsp;<a href='" + event.data.slackURL + "' target='_blank'><img src='./img/slack.png' width='30'/></a>");
 					$('#myModal').modal('show');
 				}
 			})
