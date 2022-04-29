@@ -153,7 +153,7 @@
           "id": 121,
           "name": "Shield",
           "type": "Subcategory",
-          "shortDesc": "Short description - work in progress",
+          "shortDesc": "Add more layers of security to your data with a powerful suite of security products.",
           "description": "",
           "children": [
             {
@@ -171,7 +171,7 @@
               "name": "Field Audit Trail",
               "type": "Product",
               "shortDesc": "Compliance and Data Forensics for the Enterprise",
-              "description": "Known as the highest-production dairy animals",
+              "description": "With Field Audit Trail, you can retain data history for forensic level compliance and greater operational insights into your business. \nEstablish an accurate, complete, and reliable audit of data changes in your Salesforce org. \nComply with internal and industry regulations by implementing appropriate data retention policies. And leverage scalable data storage to yield new operational insights into your business while retaining data for up to 10 years.",
               "slackURL": "https://salesforce-internal.slack.com/archives/C01S24Y4W0J",
               "highspotURL": "https://salesforce.highspot.com/items/6078a0d72e78d15787282e76?lfrm=srp.2",
               "children": []
@@ -384,7 +384,7 @@
       "id": 15,
       "name": "Build & DevOps",
       "type": "Category",
-      "shortDesc": "Power Consumer Apps, Complex Computation and Data Agility",
+      "shortDesc": "App dev, environment and release management",
       "description": "",
       "children": [
         {
