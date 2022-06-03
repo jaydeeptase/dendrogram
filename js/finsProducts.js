@@ -35,7 +35,7 @@ var data = {
                             "description": "Change Data Capture is a Platform add-on developed on force.com. It gives developers the ability to receive notifications of Salesforce record changes, including, create, update, delete, and undelete operations. Developers and Engineers can then stream those events (record changes) to external systems and databases using CDC.",
                             "slackURL": "https://salesforce-internal.slack.com/archives/C01SAV9PC67",
                             "highspotURL": "https://salesforce.highspot.com/items/6160a7565034057e01843ad2?lfrm=srp.0",
-                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.g1303bc09675_4_3926",
                             "children": []
                         },
                         {
