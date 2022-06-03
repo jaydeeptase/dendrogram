@@ -117,21 +117,10 @@ var data = {
                             "name": "AWS Private Connect",
                             "type": "Product",
                             "shortDesc": "Secure, Easy, and Private Data Connections between with AWS",
-                            "description": "Keep Communications Private - Private bidirectional connections between Salesforce and AWS without exposure to the public internet\n\nLeverage Salesforce Enterprise Security- Salesforce managed end-to-end connections and streamlined access controls\n\nImprove Productivity - Simplified setup, configuration and maintenance for developers or admins",
-                            "slackURL": "https://salesforce-internal.slack.com/archives/C01S8717NAH",
-                            "highspotURL": "https://salesforce.highspot.com/",
-                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
-                            "children": []
-                        },
-                        {
-                            "id": 1126,
-                            "name": "Connect Center",
-                            "type": "Product",
-                            "shortDesc": "Turnkey product to connect data across multiple Salesforce CRM orgs",
-                            "description": "A Salesforce-native solution that connects data across multiple Salesforce CRM orgs, enabling these orgs to natively and seamlessly work together.\n\nData Federation Service for virtual CRUD access to data across multiple connected orgs\nData Synchronization Service for real-time bi-directional synchronization of data across multiple connected orgs\nConnect Center Org where Admins & Developers declaratively manage the multi-org data connectivity between connected orgs, and stores cross-org metadata\nInterchange Data Model to eliminate point-to-point data mappings between connected orgs",
-                            "slackURL": "https://salesforce-internal.slack.com/archives/C01RGJZB4CS",
-                            "highspotURL": "https://salesforce.highspot.com/",
-                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                            "description": "Private Connect allows our customers to create a private connection between their Salesforce org and their AWS VPC. This allows customers to send data to and from their AWS infrastructure without crossing the public internet and with better performance.",
+                            "slackURL": "https://salesforce-internal.slack.com/archives/C01QG0LDLBF",
+                            "highspotURL": "https://salesforce.highspot.com/items/60832a7277459856d1df68a8?lfrm=srp.0",
+                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.g12e0000c2de_0_0",
                             "children": []
                         },
                         {
@@ -140,7 +129,7 @@ var data = {
                             "type": "Product",
                             "shortDesc": "Enables on-premise Sharepoint connections to Salesforce Files.",
                             "description": "Files Connect enables on-premise Sharepoint connections to Salesforce Files.",
-                            "slackURL": "https://salesforce-internal.slack.com/archives/C021WGHN4P9",
+                            "slackURL": "https://salesforce-internal.slack.com/",
                             "highspotURL": "https://salesforce.highspot.com/",
                             "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
                             "children": []
@@ -169,7 +158,7 @@ var data = {
                             "description": "Encrypt sensitive, confidential, and private data at rest on the App Cloud Platform so your company can confidently prove compliance with privacy policies, regulatory requirements, and contractual obligations for handling private data.",
                             "slackURL": "https://salesforce-internal.slack.com/archives/C01RMBQ2FP1",
                             "highspotURL": "https://salesforce.highspot.com/items/607899c7847e765695c0223a?lfrm=srp.4",
-                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p8",
                             "children": []
                         },
                         {
@@ -180,7 +169,7 @@ var data = {
                             "description": "With Field Audit Trail, you can retain data history for forensic level compliance and greater operational insights into your business. \nEstablish an accurate, complete, and reliable audit of data changes in your Salesforce org. \nComply with internal and industry regulations by implementing appropriate data retention policies. And leverage scalable data storage to yield new operational insights into your business while retaining data for up to 10 years.",
                             "slackURL": "https://salesforce-internal.slack.com/archives/C01S24Y4W0J",
                             "highspotURL": "https://salesforce.highspot.com/items/6078a0d72e78d15787282e76?lfrm=srp.2",
-                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p8",
                             "children": []
                         },
                         {
@@ -191,7 +180,7 @@ var data = {
                             "description": "Monitor user activity (Know who is accessing data from where with real-time streaming and 6 months of event history), Enhance security (Define Transaction Security policies using declarative condition builder or apex code to prevent and mitigate any threats.), Drive user adoption (Analyze user behavior to drive training and adoption of Salesforce) and Optimize performance (Proactively identify bottlenecks and high demand pages to improve user experience)",
                             "slackURL": "https://salesforce-internal.slack.com/archives/C01RZ2CM9NZ",
                             "highspotURL": "https://salesforce.highspot.com/items/60789ead868eb556e6194036?lfrm=srp.1",
-                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p8",
                             "children": []
                         },
                         {
@@ -202,7 +191,7 @@ var data = {
                             "description": "Einstein Data Detect is our solution to help you find and protect your data quickly. With the power of Einstein Data Detect, you can leverage pattern matching to detect sensitive data such as credit card or Social Security numbers. You can also categorize your data directly in a simple UI to label sensitive Salesforce fields based on sensitivity. You can also address flagged data directly in Einstein Data Detect, which flags the data AND shows you where it lives in your records, so you can take swift action. By pairing with other products like Privacy Center, you can also comply to data privacy laws and security best practices.",
                             "slackURL": "https://salesforce-internal.slack.com/archives/C01S3EK4VJ7",
                             "highspotURL": "https://salesforce.highspot.com/items/60d502b969426d5401299a16?lfrm=srp.1",
-                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                            "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p8",
                             "children": []
                         }
                     ]
@@ -215,7 +204,7 @@ var data = {
                     "description": "Data Mask delivers simplified privacy management to Salesforce sandboxes. Data Mask is a simple-to-use tool that ensures all your sandboxes are anonymized (or pseudonymized) in a 100% Salesforce-native solution. You can be confident - and compliant - that your sandboxes are automatically removing PI/PII, while allowing you to populate data needed to test and validate your critical Salesforce work. Reduce low-value time spent by your Developers and Admins - and gain more time for value-added work.",
                     "slackURL": "https://salesforce-internal.slack.com/archives/C01S40HGCH4",
                     "highspotURL": "https://salesforce.highspot.com/items/606792efee20570a492831ee?lfrm=ssrp.0",
-                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p5",
                     "children": []
                 },
                 {
@@ -226,7 +215,7 @@ var data = {
                     "description": "In a world with heightened security awareness and digital risks seemingly around every corner, Security Center makes it easier than ever to truly understand your Salesforce security posture. With native support for both single and multi-org environments, Security Center provides a single pane of glass view into the security configuration and controls in place across your entire Salesforce implementation.",
                     "slackURL": "https://salesforce-internal.slack.com/archives/C01S2BELTPD",
                     "highspotURL": "https://salesforce.highspot.com/items/606dd3c485cba90c494f8fee?lfrm=ssrp.1",
-                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p6",
                     "children": []
                 },
                 {
@@ -237,7 +226,7 @@ var data = {
                     "description": "Backup and Restore is a new data recovery service that protects against unexpected system and human errors by automatically creating backup copies of data - allowing for easy data restoration with just a few clicks.",
                     "slackURL": "https://salesforce-internal.slack.com/archives/C01NZS1QY02",
                     "highspotURL": "https://salesforce.highspot.com/items/614cf7fdb6d9b5ff0f27abb7?lfrm=srp.0",
-                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p4",
                     "children": []
                 },
                 {
@@ -248,7 +237,7 @@ var data = {
                     "description": "Use one app to easily create policies that manage how your Salesforce org retains, deletes, anonymizes, and transfers customer data. Privacy Center helps you satisfy customer requests and data privacy laws, like the General Data Protection Regulation (GDPR), with two customizable features.",
                     "slackURL": "https://salesforce-internal.slack.com/archives/C01QG0LDLBF",
                     "highspotURL": "https://salesforce.highspot.com/items/606e0238e509b26755d85f6a?lfrm=ssrp.1",
-                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
+                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p7",
                     "children": []
                 },
                 {
@@ -271,6 +260,16 @@ var data = {
             "shortDesc": "Power Consumer Apps, Complex Computation and Data Agility",
             "description": "",
             "children": [{
+                    "id": 130,
+                    "name": "Hyperforce",
+                    "type": "Subcategory",
+                    "shortDesc": "The power of Salesforce Customer 360 meets the agility of public cloud",
+                    "description": "Hyperforce is an upgrade from our first party data (1PDC) centers to public cloud as well as a move toward a unified cloud infrastructure",
+                    "slackURL": "https://salesforce-internal.slack.com/archives/C01HP6F6K3R",
+                    "highspotURL": "https://salesforce.highspot.com/items/625736fcd00511cd2bb7cec9?lfrm=srp.2",
+                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.g1308614fd67_0_0",
+                    "children": []
+                }, {
                     "id": 131,
                     "name": "Elastic Services",
                     "type": "Subcategory",
@@ -370,9 +369,9 @@ var data = {
                     "id": 141,
                     "name": "Big Objects",
                     "type": "Product",
-                    "shortDesc": "Short description - work in progress",
-                    "description": "",
-                    "slackURL": "https://salesforce-internal.slack.com",
+                    "shortDesc": "Big objects let you store and manage massive amounts of data on the Salesforce platform.",
+                    "description": "Big objects capture data for use within Force.com and are accessible via a standard set of APIs to clients and external systems. What differentiates big objects is that they have been built to provide consistent performance whether there is 1 million records, 100 million, or even 1 billion records.",
+                    "slackURL": "https://salesforce-internal.slack.com/archives/C01SQMW8XLZ",
                     "highspotURL": "https://salesforce.highspot.com/",
                     "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
                     "children": []
@@ -409,50 +408,28 @@ var data = {
             "description": "",
             "children": [{
                     "id": 151,
-                    "name": "Scratch Orgs",
+                    "name": "Sandboxes + Scratch Orgs",
                     "type": "Product",
-                    "shortDesc": "Short description - work in progress",
-                    "description": "",
-                    "slackURL": "https://salesforce-internal.slack.com",
-                    "highspotURL": "https://salesforce.highspot.com/",
+                    "shortDesc": "Isolated and secure development and testing environments",
+                    "description": "Salesforce Sandboxes are trusted, isolated environments that can be used for development, quality assurance, integration, staging, testing and end-user-training. Admins and developers are empowered to bring their ideas to life without disrupting live data. IT teams have the agility they need to respond to business requests and deliver innovation. Everyone can leverage powerful tools and builders to deliver personalized, engaging, and mobile-first experiences.",
+                    "slackURL": "https://salesforce-internal.slack.com/archives/C01SKP52VB3",
+                    "highspotURL": "https://salesforce.highspot.com/items/606b597f88e6154d53bcee9a?lfrm=ssrp.0",
                     "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
                     "children": []
                 },
                 {
                     "id": 152,
-                    "name": "Dev & Dev Pro Sandboxes",
+                    "name": "Dev Ops Center",
                     "type": "Product",
-                    "shortDesc": "Short description - work in progress",
-                    "description": "",
-                    "slackURL": "https://salesforce-internal.slack.com",
-                    "highspotURL": "https://salesforce.highspot.com/",
+                    "shortDesc": "Full end-to-end Change, Release Management and DevOps",
+                    "description": "DevOps Center is a UI-based application that will allow you to manage environments, easily track changes and work to be done, seamlessly integrate with source control systems, and manage deployments through an easy-to-use click-based interface.",
+                    "slackURL": "https://salesforce-internal.slack.com/archives/C0369GA0YCQ",
+                    "highspotURL": "https://salesforce.highspot.com/items/607f5e2e636a7221979a9a03",
                     "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
                     "children": []
                 },
                 {
                     "id": 153,
-                    "name": "Partial & Full Sandboxes",
-                    "type": "Product",
-                    "shortDesc": "Short description - work in progress",
-                    "description": "",
-                    "slackURL": "https://salesforce-internal.slack.com",
-                    "highspotURL": "https://salesforce.highspot.com/",
-                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
-                    "children": []
-                },
-                {
-                    "id": 154,
-                    "name": "Dev Ops Center",
-                    "type": "Product",
-                    "shortDesc": "Short description - work in progress",
-                    "description": "",
-                    "slackURL": "https://salesforce-internal.slack.com",
-                    "highspotURL": "https://salesforce.highspot.com/",
-                    "placematURL": "https://docs.google.com/presentation/d/1ps2SS3E2fJRG_N5cC62mu6-L_2L1p6SZ/edit#slide=id.p1",
-                    "children": []
-                },
-                {
-                    "id": 155,
                     "name": "Heroku Pipeline & Review Apps",
                     "type": "Product",
                     "shortDesc": "Short description - work in progress",
@@ -463,7 +440,7 @@ var data = {
                     "children": []
                 },
                 {
-                    "id": 156,
+                    "id": 154,
                     "name": "Mobile Publisher",
                     "type": "Product",
                     "shortDesc": "Short description - work in progress",
