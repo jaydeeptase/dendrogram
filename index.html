@@ -2,78 +2,77 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>FINS Platform - Products Catalog</title>
-	<script src="./js/d3-mitch-tree.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/d3-mitch-tree.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/d3-mitch-tree-theme-default.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>FINS Platform - Products Catalog</title>
+    <script src="./js/d3-mitch-tree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/d3-mitch-tree.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/d3-mitch-tree-theme-default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body style="text-align:center;">
-	<div class="banner">
-		<div>
-			<h3 style="color:steelblue">FINS Platform - Products Catalog</h3> &emsp;
-		</div>
-	</div>
-	<div id="visualisation" style="max-width:90%;position: absolute;margin: auto;left: 0;right: 0;top: 0;bottom: 0;">
-	</div>
-	<!-- The Modal -->
-	<div class="modal" id="myModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<!-- Modal Header -->
-				<div class="modal-header">
-					<h4 class="modal-title" id="myModalTitle">Modal Heading</h4>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<!-- Modal body -->
-				<div class="modal-body" id="myModalBody">
-					Modal body..
-				</div>
-				<!-- Modal footer -->
-				<div class="modal-footer" id="myModalFooter">
-					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="./js/finsProducts.js"></script>
+    <div class="banner">
+        <div>
+            <h3 style="color:steelblue">FINS Platform - Products Catalog</h3> &emsp;
+        </div>
+    </div>
+    <div id="visualisation" style="max-width:90%;position: absolute;margin: auto;left: 0;right: 0;top: 0;bottom: 0;">
+    </div>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalTitle">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body" id="myModalBody">
+                    Modal body..
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer" id="myModalFooter">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/finsProducts.js"></script>
 
-	<script>
-		var treePlugin = new d3.mitchTree.boxedTree()
-			.setData(data)
-			.setElement(document.getElementById("visualisation"))
-			.setIdAccessor(function (data) {
-				return data.id;
-			})
-			.setChildrenAccessor(function (data) {
-				return data.children;
-			})
-			.setBodyDisplayTextAccessor(function (data) {
-				return data.shortDesc;
-			})
-			.setTitleDisplayTextAccessor(function (data) {
-				return data.name;
-			})
-			.on("nodeClick", function (event) {
-				console.log("Click event was triggered!");
-				if (event.data.children.length == 0) {
-					$('#myModalTitle').html(event.data.name);
-					$('#myModalBody').html("<p style=text-align:left;font-size:14px;'>" + event.data.description + "</p>");
-					$('#myModalFooter').html("<a href='" + event.data.highspotURL + "' target='_blank'><img src='./img/highspot.png' width='30'/></a>&emsp;<a href='" + event.data.slackURL + "' target='_blank'><img src='./img/slack.png' width='30'/></a>");
-					$('#myModal').modal('show');
-				}
-			})
-			.initialize();
-
-	</script>
+    <script>
+        var treePlugin = new d3.mitchTree.boxedTree()
+            .setData(data)
+            .setElement(document.getElementById("visualisation"))
+            .setIdAccessor(function(data) {
+                return data.id;
+            })
+            .setChildrenAccessor(function(data) {
+                return data.children;
+            })
+            .setBodyDisplayTextAccessor(function(data) {
+                return data.shortDesc;
+            })
+            .setTitleDisplayTextAccessor(function(data) {
+                return data.name;
+            })
+            .on("nodeClick", function(event) {
+                console.log("Click event was triggered!");
+                if (event.data.children.length == 0) {
+                    $('#myModalTitle').html(event.data.name);
+                    $('#myModalBody').html("<p style=text-align:left;font-size:14px;'>" + event.data.description + "</p>");
+                    $('#myModalFooter').html("<a href='" + event.data.placematURL + "' target='_blank'><img src='./img/info.jpeg' width='30'/></a>&emsp;<a href='" + event.data.highspotURL + "' target='_blank'><img src='./img/highspot.png' width='30'/></a>&emsp;<a href='" + event.data.slackURL + "' target='_blank'><img src='./img/slack.png' width='30'/></a>");
+                    $('#myModal').modal('show');
+                }
+            })
+            .initialize();
+    </script>
 </body>
 
 </html>
