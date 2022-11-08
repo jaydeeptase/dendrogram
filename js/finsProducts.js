@@ -80,6 +80,16 @@ var data = {
                     "shortDesc": "Connect and unify data to drive cohesive automation",
                     "description": "",
                     "children": [{
+                            "id": 1119,
+                            "name": "Genie",
+                            "type": "Product",
+                            "shortDesc": "The real-time hyperscale data platform",
+                            "description": "This is the entire Salesforce Platform now with Customer Data Platform (CDP) capabilities that are a part of it! Salesforce Genie brings the power of real-time data to the entire Customer 360 to create a real-time, single view of the customer across any cloud.",
+                            "slackURL": "https://salesforce-internal.slack.com/archives/C042CRUH84S",
+                            "highspotURL": "https://salesforce.highspot.com/items/6320f3ade1bc7489e819db2b?lfrm=rhp.0",
+                            "placematURL": "https://docs.google.com/presentation/d/1bCpcEZ16D3VzvbOc0F3dAx8yYg0dKW1f7hchsZgxPwQ/",
+                            "children": []
+                        }, {
                             "id": 1120,
                             "name": "Salesforce Connect",
                             "type": "Product",
