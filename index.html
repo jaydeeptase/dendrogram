@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -71,6 +71,11 @@
                     $('#myModal').modal('show');
                 }
             })
+            .getNodeSettings()
+            .setSizingMode('nodesize')
+            .setVerticalSpacing(20)
+            .setHorizontalSpacing(100)
+            .back()
             .initialize();
     </script>
 </body>
